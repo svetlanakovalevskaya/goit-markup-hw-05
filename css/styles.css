@@ -72,6 +72,7 @@ img {
 }
 
 .header-address-container {
+  display: flex;
   margin-left: auto;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -82,6 +83,9 @@ img {
 }
 
 .header-address-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #757575;
 }
 
