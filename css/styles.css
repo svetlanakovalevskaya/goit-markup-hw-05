@@ -78,7 +78,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-link::after {
+.studio-link::after,
+.portfolio-link::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -89,10 +90,6 @@ img {
   background-color: #2196f3;
   border-radius: 2px;
   transform: translateY(26px);
-  opacity: 0;
-}
-
-.site-nav-link:hover::after {
   opacity: 1;
 }
 
@@ -657,6 +654,7 @@ img {
   height: 30px;
   background-color: #ffffff;
   border: 0px;
+  outline-style: none;
 }
 
 .modal-close-icon {
