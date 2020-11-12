@@ -78,8 +78,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio-link::after,
-.portfolio-link::after {
+.is-active::after {
   position: absolute;
   left: 0;
   bottom: 0;
