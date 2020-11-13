@@ -546,6 +546,7 @@ img {
 .project-thumb {
   position: relative;
   display: block;
+  overflow: hidden;
 }
 
 .project-thumb::before {
